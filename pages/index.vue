@@ -391,7 +391,7 @@
     </div>
 </template>
 <script setup>
-const ruleopen = ref([true])
+const ruleopen = ref(false)
 const ytrone = ref([
     {
         url: 'https://www.youtube.com/channel/UCWVqclEBrX4vnNbLmm_Gt1g',
