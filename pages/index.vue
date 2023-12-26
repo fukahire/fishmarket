@@ -322,8 +322,8 @@
                                 <a class="flex-row flex w-full gap-2 justify-center group flex flex-col items-center"
                                     target="_blank" v-for="item in ytrone" :href="item.url">
                                     <div class="relative">
-                                        <div class="rounded-full overflow-hidden w-28 bg-mainyellow p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>
-                                        <p class="bg-mainblue px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">{{ item.name }}</p>
+                                        <div class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>
+                                        <p class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">{{ item.name }}</p>
                                     </div>
                                     <p class="text-[#6b21a8] font-semibold text-md">{{ item.position }}</p>
                                 </a>
@@ -335,10 +335,10 @@
                                 <a class="flex-row flex w-full gap-2 justify-center group flex flex-col items-center"
                                     target="_blank" v-for="item in ytrtwo" :href="item.url">
                                     <div class="relative">
-                                        <div class="ytr-icon"><img :src="item.image" class="rounded-full" alt=""></div>
-                                        <p class="staff-card_name">{{ item.name }}</p>
+                                        <div class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>
+                                        <p class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">{{ item.name }}</p>
                                     </div>
-                                    <p class="text-subpurple font-semibold text-md">{{ item.position }}</p>
+                                    <p class="text-[#6b21a8] font-semibold text-md">{{ item.position }}</p>
                                 </a>
                             </div>
                         </div>
@@ -349,14 +349,14 @@
                 <div class="px-8 md:px-auto">
                     <p class="text-txtc flex justify-center mb-12">*得獎者以直播抽獎結果為主</p>
                     <div @click="ruleopen = !ruleopen"
-                        class="mx-auto md:mx-none hover:bg-subpurple bg-mainblue cursor-pointer text-white p-2 w-32 rounded-lg text-center mb-4">
+                        class="mx-auto md:mx-none hover:bg-[#6b21a8] bg-[#2E4187] cursor-pointer text-white p-2 w-32 rounded-lg text-center mb-4">
                         {{ ruleopen ? '關閉得獎規則' : '查看得獎規則' }}</div>
-                    <div is="prizecard" :prizedata="list" :ruledata="ruleopen"></div>
+                    <picnic-prize :ruledata="ruleopen"></picnic-prize>
                     <ul class="bg-[#cbd5e1] p-4 mt-8 list-disc pl-8">
                         <li>圖片可公開並僅限於獲獎者本人於網路使用，張貼請註明作者。</li>
                         <li>請勿進行任何修改／重製／印刷，並禁止使用於營利活動。</li>
                         <li>
-                            <light>得獎者請於4/20(四)20:00前提供設定圖給工作人員</light>
+                            <picnic-mark>得獎者請於4/20(四)20:00前提供設定圖給工作人員</picnic-mark>
                         </li>
                     </ul>
                 </div>
@@ -375,12 +375,23 @@
                 </div>
 
                 <div class="h-36"></div>
-                <menubar></menubar>
+                <picnic-nav-mobile></picnic-nav-mobile>
             </div>
+        </div>
+        <div class="hidden md:flex flex-col gap-0 fixed top-[10vh] left-0 overflow-hidden rounded-r-xl cursor-pointer">
+            <a href="#theme" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">比賽章程</a>
+            <a href="#award" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">大會獎品</a>
+            <a href="#staff" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">工作人員</a>
+            <a href="#thanks" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">特別感謝</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnkVOhevhP2dzfokrPnUVS2Afn-CYf-ratk0kUG156Y04Y6A/viewform"
+                target="_blank" class="bg-[#6b21a8] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">我要報名</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7wMXLgdEN7l2GhFolD9KZ_ytqf_9S-aw9OHDhL8R6WE7_nw/viewform"
+                target="_blank" class="bg-[#6b21a8] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">我想贊助</a>
         </div>
     </div>
 </template>
 <script setup>
+const ruleopen = ref([true])
 const ytrone = ref([
     {
         url: 'https://www.youtube.com/channel/UCWVqclEBrX4vnNbLmm_Gt1g',
