@@ -13,14 +13,14 @@
     "@hypernym/nuxt-gsap": "^2.4.2",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.10.1",
+    "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.8.2",
+    "pinia": "^2.1.7",
     "vue": "^3.3.12",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
     "gsap": "^3.12.4",
-    "nuxt-swiper": "^1.2.2",
-    "pinia": "^2.1.7"
+    "nuxt-swiper": "^1.2.2"
   }
 }
