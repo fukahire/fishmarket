@@ -5,9 +5,9 @@
 </template>
 
 <script setup lang="ts">
-    const { $gsap } = useNuxtApp()
+    // const { $gsap } = useNuxtApp()
 
-    onMounted(() => {
-        $gsap.to('.title', { rotation: 3, x: 100, duration: 1 })
-    })
+    // onMounted(() => {
+    //     $gsap.to('.title', { rotation: 3, x: 100, duration: 1 })
+    // })
 </script>
