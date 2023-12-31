@@ -35,6 +35,20 @@ export const usePicnicB = defineStore('picnicb', {
             'rita','roro',
            'aa', 'nerl',
            'soya', 'willy'
+        ],
+        navlink: [
+            {
+                title: '比賽章程',
+                link:'/picnic2/event'
+            },
+            {
+                title: '對戰規則',
+                link:'/picnic2/tip'
+            },
+            {
+                title: '工作人員',
+                link:'/picnic2/staff'
+            },
         ] 
     })
 })

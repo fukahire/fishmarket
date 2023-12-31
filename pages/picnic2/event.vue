@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="w-full px-4 max-w-[1200px] mx-auto">
         <!-- 比賽章程 -->
         <picnic-title id="theme">比賽章程</picnic-title>
         <!-- 比賽資訊 -->
