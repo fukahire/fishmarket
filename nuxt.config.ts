@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     baseURL: process.env.NODE_ENV === 'production' ? '/fishmarket/' : '/',
     buildAssetsDir: '/static/',
     head: {
-      title: '皮克尼杯2'
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
     }
   },
   css: [
