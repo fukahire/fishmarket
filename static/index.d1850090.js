@@ -1,1 +1,0 @@
-import{n as e,o as t,c as s,a as o}from"./entry.e3a9d782.js";const a=o("h1",{class:"title"},"Nuxt Gsap",-1),n=[a],l=e({__name:"index",setup(c){return(_,r)=>(t(),s("div",null,n))}});export{l as default};
