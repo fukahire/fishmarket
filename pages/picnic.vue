@@ -319,7 +319,7 @@
                         <div class="rounded-lg overflow-hidden drop-shadow-lg">
                             <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">泰A組合</p>
                             <div class="gap-6 px-8 flex bg-white p-4">
-                                <a class="flex-row flex w-full gap-2 justify-center group flex flex-col items-center"
+                                <a class="flex-row flex w-full gap-2 justify-center group items-center"
                                     target="_blank" v-for="item in ytrone" :href="item.url">
                                     <div class="relative">
                                         <div class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>
@@ -332,7 +332,7 @@
                         <div class="rounded-lg overflow-hidden drop-shadow-lg">
                             <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">酣欸組合</p>
                             <div class="gap-6 px-8 flex bg-white p-4">
-                                <a class="flex-row flex w-full gap-2 justify-center group flex flex-col items-center"
+                                <a class="flex-row flex w-full gap-2 justify-center group items-center"
                                     target="_blank" v-for="item in ytrtwo" :href="item.url">
                                     <div class="relative">
                                         <div class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>

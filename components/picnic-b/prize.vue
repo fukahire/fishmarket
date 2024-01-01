@@ -13,7 +13,7 @@
         </div>
         <div class="relative">
             <!-- <img class="w-full transition ease md:group-hover:brightness-75" src='./asset/prize_placeholder.jpg' alt=""> -->
-            <img class="w-full transition ease md:group-hover:brightness-75" :src="prize.image" alt="" loading="lazy" onerror="this.src='_nuxt/assets/material/placeholder.jpg'">
+            <nuxtImg class="w-full transition ease md:group-hover:brightness-75" :src="`${prize.image}`" alt="" loading="lazy" onerror="this.src='/material/placeholder.jpg'"></NuxtImg>
             <div class="bg-gradient-to-b from-white to-transparent absolute top-0 left-0 h-4 w-full"></div>
             <div class="rounded-md p-1.5 bg-transparent md:p-auto md:bg-none text-white drop-shadow-lg font-bold absolute bottom-2 left-4">{{prize.sponsor ? prize.sponsor + '熱情贊助' : ''}}
                 <span class="font-bold animate-[horibounce_1s_ease-in-out_infinite] w-6 h-6 md:inline-block rounded-full bg-[#FFCD40] text-center ml-2 hidden opacity-0 group-hover:opacity-100 transition ease-in-out">→</span></div>

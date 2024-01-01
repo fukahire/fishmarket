@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-4 md:flex-row flex-wrap items-stretch gap-4 md:px-0">
+    <div class="w-full grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-4 md:flex-row flex-wrap items-stretch md:px-0">
         <!-- 單張卡片 -->
         <a class="w-full rounded-2xl overflow-hidden relative drop-shadow-lg bg-[#cbd5e1] group" v-for="item in prizeList" :href="item.url" target="_blank">
             <!-- 內文 -->
