@@ -12,14 +12,14 @@
                         </div>
                 </div>
             </div>
-            <div class="relative">
-                <!-- <img class="w-full transition ease md:group-hover:brightness-75" src='./asset/prize_placeholder.jpg' alt=""> -->
+            <!-- <div class="relative">
+                <img class="w-full transition ease md:group-hover:brightness-75" src='./asset/prize_placeholder.jpg' alt="">
                 <img class="w-full transition ease md:group-hover:brightness-75" :src="`_nuxt/assets/picnic/prize/${item.image}.jpg`" alt="" loading="lazy" onerror="this.src='_nuxt/assets/picnic/prize/placeholder.jpg';">
                 <div class="bg-gradient-to-b from-white to-transparent absolute top-0 left-0 h-4 w-full"></div>
                 <div class="rounded-md p-1.5 bg-transparent md:p-auto md:bg-none text-white drop-shadow-lg font-bold absolute bottom-2 left-4">{{item.sponsor ? item.sponsor + '熱情贊助' : ''}}
                     <span class="font-bold animate-[horibounce_1s_ease-in-out_infinite] w-6 h-6 md:inline-block rounded-full bg-[#FFCD40] text-center ml-2 hidden opacity-0 group-hover:opacity-100 transition ease-in-out">→</span></div>
                 <div class="absolute top-0 left-0 bg-[#94a3b8] w-full h-full p-4 md:p-6 text-white -translate-x-full transition duration-500" :class="{ '!-translate-x-0' : props.ruledata === true }">得獎條件：<br>{{item.rule ? item.rule : ''}}<img v-show="item.rule == ''" src="./asset/dntno_syuto.png" class="ml-6 mt-2"></div>
-            </div>
+            </div> -->
             <div class="absolute bottom-0 right-0 text-white"></div>
         </a>
     </div>

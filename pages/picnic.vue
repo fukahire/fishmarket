@@ -141,8 +141,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <a class="thumb" href="./asset/rule_animation.gif"><img src="./asset/rule_animation.gif"
-                                            alt=""></a>
+                                    <!-- <a class="thumb" href="./asset/rule_animation.gif"><img src="./asset/rule_animation.gif"
+                                            alt=""></a> -->
                                 </ul>
                             </template>
                         </picnic-rule>
@@ -206,8 +206,8 @@
                                 <ul class="list-disc mb-4">
                                     <li>進入私房前請將依照以下方式改名：隊伍序號_ID (EX. C_AA)</li>
                                 </ul>
-                                <a class="thumb" href="./asset/picnic_teamtitle.jpg"><img src="./asset/picnic_teamtitle.jpg"
-                                        alt=""></a>
+                                <!-- <a class="thumb" href="./asset/picnic_teamtitle.jpg"><img src="./asset/picnic_teamtitle.jpg"
+                                        alt=""></a> -->
                             </template>
                         </picnic-rule>
 
@@ -271,7 +271,7 @@
                                 <p class="content-title">
                                     <picnic-mark>如何進入指定頻道</picnic-mark>
                                 </p>
-                                <ul class="list-disc mb-4">
+                                <!-- <ul class="list-disc mb-4">
                                     <li>開啟大廳通知</li>
                                     <div><a class="thumb" href="./asset/lobby_01.jpg"><img src="./asset/lobby_01.jpg"
                                                 alt=""></a></div>
@@ -280,7 +280,7 @@
                                                 alt=""></a></div>
                                     <div><a class="thumb" href="./asset/lobby_03.jpg"><img src="./asset/lobby_03.jpg"
                                                 alt=""></a></div>
-                                </ul>
+                                </ul> -->
                                 <p class="content-title">斷線怎麼辦？</p>
                                 <ul class="list-disc mb-4">
                                     <li>對戰開始 60 秒內斷線：請終止對戰，四隊以相同的地圖規則、武器組成及裝備進行重賽</li>
