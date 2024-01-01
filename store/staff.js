@@ -15,7 +15,7 @@ export const useStaffList = defineStore('stafflist', {
             },
             {
                 url: 'https://lit.link/en/ChounoRin',
-                image: '/_nuxt/assets/material/staff/sana.jpg',
+                image: '/_nuxt/assets/material/staff/nana.png',
                 name: '那那',
             },
             {

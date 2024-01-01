@@ -6,7 +6,7 @@ export const usePicnicB = defineStore('picnicb', {
             {
                 unit: '1組',
                 title: '冠軍賞',
-                image: '/_nuxt/assets/prize/picnic-b/fenguo.png',
+                image: '/_nuxt/assets/prize/picnic-b/fenguo.jpg',
                 sponsor: '粉粿',
                 rule: '皮克尼2冠軍組',
                 luckysquid: '',
@@ -15,7 +15,7 @@ export const usePicnicB = defineStore('picnicb', {
             {
                 unit: '1組',
                 title: '活動賞',
-                image: '/_nuxt/assets/prize/picnic-b/fefe.webp',
+                image: '/_nuxt/assets/prize/picnic-b/fefe.jpg',
                 sponsor: '緋緋',
                 rule: '',
                 luckysquid: '',
@@ -24,7 +24,7 @@ export const usePicnicB = defineStore('picnicb', {
             {
                 unit: '1組',
                 title: '活動賞',
-                image: '/_nuxt/assets/prize/picnic-b/turtle.webp',
+                image: '/_nuxt/assets/prize/picnic-b/turtle.jpg',
                 sponsor: '烏龜',
                 rule: '',
                 luckysquid: '',
