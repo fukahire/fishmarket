@@ -22,7 +22,7 @@
                             <li>本次報名為抽選制，組別中兩人皆未參加過皮克尼杯，中籤機率為參加過組別的兩倍；兩人皆參加過／其中一人參加過的組別則為正常機率。</li>
                             <li>贊助商擁有參賽保底名額。</li>
                             <li><a class="my-0.5 inline-block bg-[#6b21a8] text-white py-1 px-2 rounded-md  md:hover:bg-mainyellow md:active:grayscale"
-                                    href="" target="_blank">
+                                    href="#" target="_blank">
                                     報名網址
                                 </a></li>
                             <li>比賽Discord群組：<a href="https://discord.gg/VTjUQkB9uv" target="_blank"><span

@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/fishmarket/' : '/',
-    buildAssetsDir: '/static/'
+    buildAssetsDir: '/static/',
+    head: {
+      title: '皮克尼杯2'
+    }
   },
   css: [
     '@/assets/css/main.css',
