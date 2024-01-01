@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <div class="w-full bg-white p-8 md:px-24 md:py-2">
+    <div class="w-full px-4 max-w-[1200px] mx-auto">
+        <!-- <div></div> -->
+        <div class="w-full bg-white p-8 md:px-24 md:py-2 col-span-3">
             <div>
                 <!-- 對戰規則 -->
                 <picnic-rule>
