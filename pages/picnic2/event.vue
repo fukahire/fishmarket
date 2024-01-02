@@ -1,13 +1,14 @@
 <template>
     <div class="w-full px-4 max-w-[1000px] mx-auto">
         <!-- 比賽章程 -->
-        <picnic-title id="theme">比賽章程</picnic-title>
+        <picnic-b-title id="theme">比賽章程</picnic-b-title>
         <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg">
             <!-- 比賽資訊 -->
             <div class="divide-y divide-[#b6adca]">
                 <picnic-b-rule>
                     <template #title>比賽資訊</template>
                     <template #content>
+                        <img src="@/assets/material/rule/schedule.png" class="max-w-lg block" alt="">
                         <ul class="list-disc">
                             <li>比賽時間：1/27(六) 19:00 [GMT+8]</li>
                             <li>報名時間：1/9(二) 12:30～1/11(四) 20:00 [GMT+8]</li>
@@ -83,12 +84,12 @@
                         </ul>
                         <p class="text-md font-semibold -ml-2 md:-ml-6">擂台賽規則</p>
                             <ul class="list-decimal mb-6">
-                                <li>晉級複賽的八組將隨機安排出賽順序，第一場比賽由順位 1 的組別為 黃 1，順位 2 的組別為 藍 1，順位 3 的組別為 黃 2，順位 4 的組別為 藍
-                                    2，另外四組排列於等待區並且在後面的比賽依序上場。每場會有四組先上擂台，分為 黃隊 和 藍隊 進行對戰。</li>
-                                <li>黃隊或藍隊皆由一組守擂組 ( 黃 1 或 藍 1 ) 搭配一組挑戰組 ( 黃 2 或 藍 2 ) 組成，對戰組合為 黃 1 黃 2 vs 藍 1 藍 2 。</li>
-                                <li>獲勝隊伍的挑戰組在下一場將成為另一隊的守擂組。若黃隊獲勝，黃 2 下一場成為藍隊的藍 1 ；若藍隊獲勝，藍 2 下一場成為黃隊的 黃 1
+                                <li>晉級複賽的八組將隨機安排出賽順序，第一場比賽由順位 1 的組別為<picnic-b-mark-y>黃 1</picnic-b-mark-y>，順位 2 的組別為<picnic-b-mark-b>藍 1</picnic-b-mark-b>，順位 3 的組別為<picnic-b-mark-y>黃 2</picnic-b-mark-y>，順位 4 的組別為<picnic-b-mark-b>藍
+                                    2</picnic-b-mark-b>，另外四組排列於等待區並且在後面的比賽依序上場。每場會有四組先上擂台，分為 黃隊 和 藍隊 進行對戰。</li>
+                                <li>黃隊或藍隊皆由一組守擂組 (<picnic-b-mark-y>黃 1</picnic-b-mark-y>或<picnic-b-mark-b>藍 1</picnic-b-mark-b>) 搭配一組挑戰組 (<picnic-b-mark-y>黃 2</picnic-b-mark-y>或<picnic-b-mark-b>藍 2</picnic-b-mark-b>) 組成，對戰組合為<picnic-b-mark-y>黃 1</picnic-b-mark-y><picnic-b-mark-y>黃 2</picnic-b-mark-y>vs<picnic-b-mark-b>藍 1</picnic-b-mark-b><picnic-b-mark-b>藍 2</picnic-b-mark-b>。</li>
+                                <li>獲勝隊伍的挑戰組在下一場將成為另一隊的守擂組。若黃隊獲勝，<picnic-b-mark-y>黃 2</picnic-b-mark-y>下一場成為藍隊的<picnic-b-mark-b>藍 1</picnic-b-mark-b>；若藍隊獲勝，<picnic-b-mark-b>藍 2</picnic-b-mark-b>下一場成為黃隊的<picnic-b-mark-y>黃 1</picnic-b-mark-y>
                                     。落敗方則回到等待區隊伍的最後序列。</li>
-                                <li>等待區內順序較前的兩隊成為下一場的挑戰隊，依序編入 Alpha 組的挑戰隊 A2 和 Bravo 組的挑戰隊 B2。</li>
+                                <li>等待區內順序較前的兩組成為下一場的挑戰組，依序編入黃隊的挑戰組<picnic-b-mark-y>黃 2</picnic-b-mark-y>和藍隊的挑戰組<picnic-b-mark-b>藍 2</picnic-b-mark-b>。</li>
                                 <li>若進行至第 14 場仍無組別取得 14 分，第 15 場開始則以目前累計積分最高的分數為基準，先取得最高積分加 2 分者即為冠軍（例如第 14 場時， 2C
                                     組為所有組別中最高積分 10 分，則第 15 場開始先取得 12 分的組別即為冠軍）。</li>
                                 <li>若第 15 場結束時，出現多組同時符合冠軍條件（第 14 場最高積分 +2 分），則繼續進行下一輪比賽，直到有人取得唯一最高積分即為冠軍，並結束比賽。</li>
@@ -123,7 +124,8 @@
         </div>
 
         <!-- 獎項 -->
-        <picnic-title id="award">大會獎品</picnic-title>
+        <picnic-b-title id="award">大會獎品</picnic-b-title>
+        
         <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg mb-8">
             <picnic-b-rule>
                 <template #title>注意事項</template>
