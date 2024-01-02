@@ -1,6 +1,6 @@
 <template>
     <div class="w-full px-4 max-w-[1200px] mx-auto">
-        <picnic-title>實況轉播</picnic-title>
+        <picnic-b-title>實況轉播</picnic-b-title>
             <div class="mx-auto flex flex-col items-center px-8">
                 <ol class="list-disc mb-4 text-txtc ml-6">
                     <li>主辦方有可能會安插工作人員進入私房轉播，轉播場次將與對戰流程表一同公布，請知悉。</li>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-        <picnic-title>工作人員</picnic-title>
+        <picnic-b-title>工作人員</picnic-b-title>
         <div class="grid grid-cols-3 lg:grid-cols-4 grid-flow-row gap-6 px-8">
             <picnic-b-staff v-for="item in staffList.staff" :staff="item"></picnic-b-staff>
         </div>

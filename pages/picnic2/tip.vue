@@ -1,7 +1,7 @@
 <template>
     <div class="w-full px-4 max-w-[1000px] mx-auto">
         <!-- 比賽章程 -->
-        <picnic-title id="theme">對戰規則</picnic-title>
+        <picnic-b-title id="theme">對戰規則</picnic-b-title>
         <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg">
             <div class="divide-y divide-[#b6adca]">
                 <!-- 對戰規則 -->
