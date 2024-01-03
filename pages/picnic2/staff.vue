@@ -6,22 +6,19 @@
                     <li>主辦方有可能會安插工作人員進入私房轉播，轉播場次將與對戰流程表一同公布，請知悉。</li>
                     <li>官方轉播：(點擊頭像前往主播個人頻道)</li>
                 </ol>
-                <div class="grid-cols-1 md:grid-cols-2 grid-flow-row grid gap-8 w-full">
-                    <div class="rounded-lg overflow-hidden drop-shadow-lg">
-                        <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">直播組合</p>
-                        <div class="gap-6 px-8 flex bg-white p-4">
+                <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row grid gap-8 w-full">
+                    <div class="rounded-lg overflow-hidden">
+                        <div class="gap-2 flex p-4">
                             <picnic-b-staff v-for="item in ytOne" :staff="item"></picnic-b-staff>
                         </div>
                     </div>
-                    <div class="rounded-lg overflow-hidden drop-shadow-lg">
-                        <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">直播組合</p>
-                        <div class="gap-6 px-8 flex bg-white p-4">
+                    <div class="rounded-lg overflow-hidden">
+                        <div class="gap-2 flex p-4">
                             <picnic-b-staff v-for="item in ytTwo" :staff="item"></picnic-b-staff>
                         </div>
                     </div>
-                    <div class="rounded-lg overflow-hidden drop-shadow-lg">
-                        <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">直播組合</p>
-                        <div class="gap-6 px-8 flex bg-white p-4">
+                    <div class="rounded-lg overflow-hidden">
+                        <div class="gap-2 flex p-4">
                             <picnic-b-staff v-for="item in ytThree" :staff="item"></picnic-b-staff>
                         </div>
                     </div>

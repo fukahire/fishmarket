@@ -10,9 +10,9 @@
                     <template #content>
                         <img src="@/assets/material/rule/schedule.png" class="max-w-lg block" alt="">
                         <ul class="list-disc">
-                            <li>比賽時間：1/27(六) 19:00 [GMT+8]</li>
-                            <li>報名時間：1/9(二) 12:30～1/11(四) 20:00 [GMT+8]</li>
-                            <li>實況抽選：預定 1/12 (五) 具體時間另行公布</li>
+                            <li><span class="bg-[#9FFCFF] px-1 rounded">比賽時間</span>：1/27(六) 19:00 [GMT+8]</li>
+                            <li><span class="bg-[#FFEA94] px-1 rounded">報名時間</span>：1/9(二) 12:30～1/11(四) 20:00 [GMT+8]</li>
+                            <li><span class="bg-[#bcffa0] px-1 rounded">實況抽選</span>：預定 1/12 (五) 具體時間另行公布</li>
                             <li>募集組別：雙人 16 組 或 32 組</li>
                             <ul class="ml-20">
                                 <li>報名未滿 16 組，則取消比賽；</li>
@@ -22,12 +22,12 @@
                             <li>以報名表單時間戳記為主，超時不記入。</li>
                             <li>本次報名為抽選制，組別中兩人皆未參加過皮克尼杯，中籤機率為參加過組別的兩倍；兩人皆參加過／其中一人參加過的組別則為正常機率。</li>
                             <li>贊助商擁有參賽保底名額。</li>
-                            <li><a class="my-0.5 inline-block bg-[#6b21a8] text-white py-1 px-2 rounded-md  md:hover:bg-mainyellow md:active:grayscale"
+                            <li><a class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale"
                                     href="#" target="_blank">
                                     報名網址
                                 </a></li>
                             <li>比賽Discord群組：<a href="https://discord.gg/VTjUQkB9uv" target="_blank"><span
-                                        class="my-0.5 inline-block bg-[#6b21a8] text-white py-1 px-2 rounded-md  md:hover:bg-mainyellow md:active:grayscale">斯普拉遁魚市場</span></a>
+                                        class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale">斯普拉遁魚市場</span></a>
                             </li>
                         </ul>
                     </template>
