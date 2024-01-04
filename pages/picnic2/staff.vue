@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full px-4 max-w-[1200px] mx-auto">
+    <div class="w-full px-4 max-w-[1200px] mx-auto pt-12">
         <picnic-b-title>實況轉播</picnic-b-title>
             <div class="mx-auto flex flex-col items-center px-8">
                 <ol class="list-disc mb-4 text-txtc ml-6">

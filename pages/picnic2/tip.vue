@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full px-4 max-w-[1000px] mx-auto">
+    <div class="w-full px-4 max-w-[1000px] mx-auto pt-12">
         <!-- 比賽章程 -->
         <picnic-b-title id="theme">對戰規則</picnic-b-title>
         <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg">
@@ -35,7 +35,7 @@
                 <picnic-b-rule>
                     <template #title>私房創建</template>
                     <template #content>
-                        <ul class="list-disc">
+                        <ul class="list-disc mb-4">
                             <li>初賽進行時，主辦宣佈可進行次輪對戰後，若10分鐘內未進入指定房間，則判定為另外三組的勝利。</li>
                             <li>私房開啟後，10分鐘內若某一組未全員進入私房，則判定為另外三組的勝利</li>
                         </ul>
