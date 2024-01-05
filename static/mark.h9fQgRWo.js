@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.x3n3nnut.js";import{o as s,c as t,r as n}from"./entry.MQT7IDs_.js";const r={},c={class:"bg-[#FFCD40] px-1"};function _(o,a){return s(),t("span",c,[n(o.$slots,"default")])}const l=e(r,[["render",_]]);export{l as _};
