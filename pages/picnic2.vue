@@ -29,7 +29,7 @@ useSeoMeta({
   ogTitle: '皮克尼杯2',
   description: '欸等等搶魚耶，要不要雙排？',
   ogDescription: '欸等等搶魚耶，要不要雙排？',
-  ogImage: '/visual/picnic-b/meta.jpg',
+  ogImage: 'https://fukahire.github.io/fishmarket/visual/picnic-b/meta.jpg',
   twitterCard: 'summary_large_image',
   ogUrl: 'https://fukahire.github.io/fishmarket/picnic2',
 })
