@@ -1,19 +1,19 @@
 <template>
-    <div>
+    <div class="pt-8" id="title">
         <!-- 主視覺 -->
         <div class="flex items-center relative">
             <img class="max-w-3xl w-full mx-auto" src="/assets/visual/picnic-b/people.png" alt="">
             <img class="absolute bottom-24 w-[50%] max-w-sm left-1/2 -translate-x-1/2"
                 src="/assets/visual/picnic-b/logo.png" alt="">
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto px-4">
-            <div>
+        <div class="flex gap-8 md:items-center items-stretch max-w-6xl mx-auto px-4 flex-col md:flex-row">
+            <div class="w-full md:max-w-md">
                 <a class="twitter-timeline" data-height="500" data-width="100%"
                     href="https://twitter.com/fishmarket_tw?ref_src=twsrc%5Etfw">Tweets by 斯普拉遁魚市場</a>
                 <component :is="'script'" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></component>
             </div>
-            <div class="md:col-span-2">
-                <p class="text-[#395EE5] font-bold text-2xl mb-4">活動時程</p>
+            <div class="flex-grow">
+                <picnic-b-title>活動時程</picnic-b-title>
                 <picnic-b-timeevent v-for="item in date" :event="item" class="mb-3"></picnic-b-timeevent>
             </div>
         </div>
@@ -31,7 +31,7 @@
                     <picnic-b-rule>
                         <template #title>比賽資訊</template>
                         <template #content>
-                            <img src="@/assets/material/rule/schedule.png" class="max-w-lg block" alt="">
+                            <img src="@/assets/material/rule/schedule.png" class="max-w-2xl" alt="">
                             <ul class="list-disc">
                                 <li><span class="bg-[#9FFCFF] px-1 rounded">比賽時間</span>：1/27(六) 19:00 [GMT+8]</li>
                                 <li><span class="bg-[#FFEA94] px-1 rounded">報名時間</span>：1/9(二) 12:30～1/11(四) 20:00 [GMT+8]
@@ -46,14 +46,15 @@
                                 <li>以報名表單時間戳記為主，超時不記入。</li>
                                 <li>本次報名為抽選制，組別中兩人皆未參加過皮克尼杯，中籤機率為參加過組別的兩倍；兩人皆參加過／其中一人參加過的組別則為正常機率。</li>
                                 <li>贊助商擁有參賽保底名額。</li>
-                                <li class="flex gap-2">
-                                    <a class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale"
+                                <li class="flex gap-2 flex-col md:flex-row">
+                                    <a
                                         href="https://forms.gle/hwsKafDRvcxuZNa2A" target="_blank">
-                                        報名網址
+                                        <span class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale">報名網址</span>
                                     </a>
-                                    <a class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale"
-                                        href="https://docs.google.com/spreadsheets/d/1QyXWQq2flAGS_z_vgNUWl2lRfj1LgIY8PbR2HEqKlNc/edit#gid=952962651" target="_blank">
-                                        分組表單與計分表
+                                    <a
+                                        href="https://docs.google.com/spreadsheets/d/1QyXWQq2flAGS_z_vgNUWl2lRfj1LgIY8PbR2HEqKlNc/edit#gid=952962651"
+                                        target="_blank">
+                                        <span class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale">分組表單與計分表</span>
                                     </a>
                                     <a href="https://discord.gg/fishmarket-tw" target="_blank"><span
                                             class="my-0.5 inline-block bg-[#395ee5] text-white py-1 px-2 rounded-md  md:hover:bg-[#ffcd40] md:hover:text-[#334155] md:active:grayscale">斯普拉遁魚市場Discord</span></a>
@@ -167,7 +168,7 @@
 
         </div>
 
-        <div class="w-full px-4 max-w-[1000px] mx-auto pt-12">
+        <div class="w-full px-4 max-w-[1000px] mx-auto pt-4">
             <!-- 比賽章程 -->
             <picnic-b-title id="tip">對戰規則</picnic-b-title>
             <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg">
@@ -295,7 +296,7 @@
             </div>
         </div>
         <!-- 獎項 -->
-        <div class="w-full px-4 max-w-[1000px] mx-auto pt-12">
+        <div class="w-full px-4 max-w-[1000px] mx-auto">
             <picnic-b-title id="award">大會獎品</picnic-b-title>
 
             <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg mb-8">
@@ -320,34 +321,44 @@
             class="mx-auto w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-flow-row md:flex-row flex-wrap items-stretch gap-8 px-8">
             <picnic-b-prize v-for="item in picnicB.prize" :prize="item"></picnic-b-prize>
         </div>
-        <picnic-b-title id="staff">實況轉播</picnic-b-title>
-        <div class="mx-auto flex flex-col items-center px-8">
-            <ol class="list-disc mb-4 text-txtc ml-6">
-                <li>主辦方有可能會安插工作人員進入私房轉播，轉播場次將與對戰流程表一同公布，請知悉。</li>
-                <li>官方轉播：(點擊頭像前往主播個人頻道)</li>
-            </ol>
+            <picnic-b-title id="staff" class="mt-4">實況轉播</picnic-b-title>
+
+        <div class="w-full px-4 max-w-[1000px] mx-auto">
+            <div class="w-full bg-white p-2 md:px-6 md:py-2 rounded-lg mb-8">
+                <picnic-b-rule>
+                    <template #title></template>
+                    <template #content>
+                        <ol class="list-disc mb-4">
+                            <li>主辦方有可能會安插工作人員進入私房轉播，轉播場次將與對戰流程表一同公布，請知悉。</li>
+                            <li>官方轉播：(點擊頭像前往主播個人頻道)</li>
+                        </ol>
+                    </template>
+                </picnic-b-rule>
+            </div>
             <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row grid gap-8 w-full">
-                <div class="rounded-lg overflow-hidden">
-                    <div class="gap-2 flex p-4">
-                        <picnic-b-staff v-for="item in ytOne" :staff="item"></picnic-b-staff>
-                    </div>
+            <div class="rounded-lg overflow-hidden">
+                <div class="gap-2 flex p-4">
+                    <picnic-b-staff v-for="item in ytOne" :staff="item"></picnic-b-staff>
                 </div>
-                <div class="rounded-lg overflow-hidden">
-                    <div class="gap-2 flex p-4">
-                        <picnic-b-staff v-for="item in ytTwo" :staff="item"></picnic-b-staff>
-                    </div>
+            </div>
+            <div class="rounded-lg overflow-hidden">
+                <div class="gap-2 flex p-4">
+                    <picnic-b-staff v-for="item in ytTwo" :staff="item"></picnic-b-staff>
                 </div>
-                <div class="rounded-lg overflow-hidden">
-                    <div class="gap-2 flex p-4">
-                        <picnic-b-staff v-for="item in ytThree" :staff="item"></picnic-b-staff>
-                    </div>
+            </div>
+            <div class="rounded-lg overflow-hidden">
+                <div class="gap-2 flex p-4">
+                    <picnic-b-staff v-for="item in ytThree" :staff="item"></picnic-b-staff>
                 </div>
             </div>
         </div>
-        <picnic-b-title>工作人員</picnic-b-title>
+
+        <picnic-b-title class="mt-4">工作人員</picnic-b-title>
         <div class="grid grid-cols-3 lg:grid-cols-4 grid-flow-row gap-6 px-8">
             <picnic-b-staff v-for="item in staffList.staff" :staff="item"></picnic-b-staff>
         </div>
+        </div>
+        
     </div>
 </template>
 <script setup>
