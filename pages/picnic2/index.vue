@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-8" id="title">
+    <div class="pt-16" id="title">
         <!-- 主視覺 -->
         <!-- <picnic-b-fish class="w-full"></picnic-b-fish> -->
         <div class="flex items-center relative">
