@@ -11,7 +11,7 @@ export const useDate = defineStore("datecounter", {
               date: '1/08 - ',
               start: '敬請期待',
               goon: '比賽公布',
-              end: '比賽公布',
+              end: '比賽資訊公布',
           },
           start: Date.parse('08 Jan 2024 00:00:00'),
           end: Date.parse('09 Jan 2024 12:30:00'),
@@ -31,9 +31,9 @@ export const useDate = defineStore("datecounter", {
         {
           txt:{
               date: '1/12 00:00 - 1/12 24:00',
-              start: '抽籤分組',
-              goon: '今日抽籤',
-              end: '分組完畢',
+              start: '選手抽選',
+              goon: '今日抽選',
+              end: '分組資訊將於比賽當日公布',
           },
           start: Date.parse('12 Jan 2024 00:00:00'),
           end: Date.parse('12 Jan 2024 24:00:00'),

@@ -14,8 +14,8 @@ const props = defineProps({
 })
 
 const event = props.event
-const today = Date.parse('08 Jan 2024 00:00:00')
-console.log(event.url)
+const today = Date.now()
+// console.log(today)
 const eventcheck = computed(() => today >= event.start && today <= event.end)
 const check = computed(() => {
     if(today < event.start ){ return event.txt.start}
