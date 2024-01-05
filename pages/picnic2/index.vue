@@ -1,12 +1,14 @@
 <template>
     <div class="pt-8" id="title">
         <!-- 主視覺 -->
+        <!-- <picnic-b-fish class="w-full"></picnic-b-fish> -->
         <div class="flex items-center relative">
-            <img class="max-w-3xl w-full mx-auto" src="/assets/visual/picnic-b/people.png" alt="">
-            <img class="absolute bottom-24 w-[50%] max-w-sm left-1/2 -translate-x-1/2"
+            <img class="max-w-2xl w-full mx-auto" src="/assets/visual/picnic-b/people.png" alt="">
+            <img class="absolute bottom-0 -translate-y-1/2 w-[50%] max-w-xs left-1/2 -translate-x-1/2"
                 src="/assets/visual/picnic-b/logo.png" alt="">
         </div>
-        <div class="flex gap-8 md:items-center items-stretch max-w-6xl mx-auto px-4 flex-col md:flex-row">
+        <picnic-b-fish class="w-full"></picnic-b-fish>
+        <div class="flex gap-8 mt-8 md:items-center items-stretch max-w-6xl mx-auto px-4 flex-col md:flex-row">
             <div class="w-full md:max-w-md">
                 <a class="twitter-timeline" data-height="500" data-width="100%"
                     href="https://twitter.com/fishmarket_tw?ref_src=twsrc%5Etfw">Tweets by 斯普拉遁魚市場</a>
@@ -139,7 +141,7 @@
                                     「若叫號起三分鐘內組別未全員進入私房」，則視同過號，需重新回到等待區組別的最後列，並且改由下一組遞補。
                                 </li>
                             </ul>
-                            <img src="@/assets/material/rule/animation_picnicb.gif" alt="">
+                            <img class="max-w-[600px]" src="@/assets/material/rule/animation_picnicb.gif" alt="">
                         </template>
                     </picnic-b-rule>
 

@@ -25,7 +25,7 @@ useSeoMeta({
   title: '皮克尼杯2',
   twitterTitle: '皮克尼杯2',
   twitterDescription: '欸等等搶魚耶，要不要雙排？',
-  twitterImage: 'https://fukahire.github.io/fishmarket/picnic2',
+  twitterImage: '/visual/picnic-b/meta.jpg',
   ogTitle: '皮克尼杯2',
   description: '欸等等搶魚耶，要不要雙排？',
   ogDescription: '欸等等搶魚耶，要不要雙排？',
