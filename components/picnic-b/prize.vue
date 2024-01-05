@@ -1,6 +1,6 @@
 <template>
     <!-- 單張卡片 -->
-    <div class="w-full relative group">
+    <div class="w-full max-w-[600px] relative group">
         <a class="block rounded-2xl overflow-hidden relative drop-shadow-lg bg-[#cbd5e1] md:hover:rotate-0 md:rotate-1 md:hover:scale-100 md:scale-95 transition" :href="prize.url" target="_blank">
             <!-- 內文 -->
             <div class="w-full p-2.5 bg-white z-10">

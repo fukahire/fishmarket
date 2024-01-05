@@ -6,7 +6,7 @@ export const usePicnicB = defineStore('picnicb', {
             {
                 unit: '1組',
                 title: '冠軍賞',
-                image: 'prize/picnic-b/fenguo.jpg',
+                image: 'prize/picnic-b/fenguo.png',
                 sponsor: '粉粿',
                 rule: '皮克尼2冠軍組',
                 luckysquid: '',
