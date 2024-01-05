@@ -1,7 +1,7 @@
 <template>
     <NuxtLink class="block rounded-2xl overflow-hidden items-end gap-4 justify-between  ring-white ring-4 p-3 px-6"
         :class="[ eventcheck ? 'text-white bg-[#395EE5]' : 'text-slate-700 bg-[#FFCD40]' ]"
-        :to="[ eventcheck ? event.url : '' ]">
+        :to="event.url" target="_blank">
         <div class="text-sm font-bold">{{ event.txt.date }}</div>
         <div class="text-lg font-semibold">{{ check }}</div>
         

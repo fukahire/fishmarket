@@ -39,15 +39,23 @@ export const usePicnicB = defineStore('picnicb', {
         navlink: [
             {
                 title: '比賽章程',
-                link:'/picnic2/event'
+                link:'#theme'
             },
             {
                 title: '對戰規則',
-                link:'/picnic2/tip'
+                link:'#tip'
+            },
+            {
+                title: '大會獎品',
+                link:'#award'
             },
             {
                 title: '工作人員',
-                link:'/picnic2/staff'
+                link:'#staff'
+            },
+            {
+                title: '我要報名',
+                link:'https://forms.gle/hwsKafDRvcxuZNa2A'
             },
         ] 
     })
