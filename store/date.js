@@ -15,7 +15,7 @@ export const useDate = defineStore("datecounter", {
           },
           start: Date.parse('08 Jan 2024 00:00:00'),
           end: Date.parse('09 Jan 2024 12:30:00'),
-          url: '#',
+          url: '/picnic2',
         },
         {
           txt:{
