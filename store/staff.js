@@ -102,14 +102,17 @@ export const useStaffList = defineStore('stafflist', {
         },
         thanks: {
             eru: {
+                url: 'https://www.youtube.com/@ooluannoo',
                 image: 'material/youtuber/eru.jpg',
                 name: '欸嚕',
             },
             eee: {
+                url: 'https://twitter.com/yoshi_EEE',
                 image: 'material/thanks/eee.jpg',
                 name: 'EEE',
             },
             ban: {
+                url: 'https://twitter.com/ckug8520',
                 image: 'material/thanks/ban.jpg',
                 name: '棒仔',
             }

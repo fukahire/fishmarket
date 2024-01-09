@@ -1,7 +1,7 @@
 <template>
     <div class="w-full">
         <!-- 單張卡片 -->
-        <a class="block w-full rounded-2xl overflow-hidden relative drop-shadow-lg bg-[#cbd5e1] group" :href="prize.url" target="_blank">
+        <a class="block w-full rounded-2xl overflow-hidden relative drop-shadow-lg bg-[#cbd5e1] group" :href="prize.url">
             <!-- 內文 -->
             <div class="w-full p-2.5 bg-white z-10">
                 <div class="h-14 flex flex-row items-center overflow-hidden bg-[#FFCD40] p-1 rounded-full gap-3 text-white shadow-md">
