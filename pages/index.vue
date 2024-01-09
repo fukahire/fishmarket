@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="title">Nuxt Gsap</h1>
+        <h1 class="title">斯普拉遁魚市場</h1>
     </div>
 </template>
 

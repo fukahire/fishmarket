@@ -1,12 +1,13 @@
 <template>
-    <div class="bg-[url('_nuxt/assets/picnic/visual/picnic_bg.jpg')] h-full bg-fixed bg-[length:60%] md:bg-[length:40%] lg:bg-[length:20%]">
+    <div
+        class="bg-[url('/visual/picnic/picnic_bg.jpg')] h-full bg-fixed bg-[length:60%] md:bg-[length:40%] lg:bg-[length:20%]">
         <div class="w-full flex justify-center font-sans">
             <!-- container -->
             <div class="max-w-[1000px] w-full md:px-4">
                 <!-- banner -->
                 <div class="w-full rounded-md md:mb-12 md:mt-6">
-                    <img class="hidden md:block" src="/assets/picnic/visual/picnic_visual.png" alt="">
-                    <img class="block md:hidden" src="/assets/picnic/visual/picnic_visual_mobile.jpg" alt="">
+                    <img class="hidden md:block" src="/visual/picnic/picnic_visual.png" alt="">
+                    <img class="block md:hidden" src="/visual/picnic/picnic_visual_mobile.jpg" alt="">
                 </div>
                 <!-- content -->
                 <div class="bg-neutral-100 p-4 mb-8">
@@ -104,7 +105,8 @@
                                     <ul class="ml-8 list-disc">
                                         <li>如另一組雙排隊友斷線且該局落敗，則勝方加 2 分，敗方但未斷線的組別加 1 分，斷線組別不加分。</li>
                                         <li>如另一組雙排隊友斷線但該局勝利，則按正常計分。</li>
-                                        <li>因他組斷線導致落敗的組別，需於當局比賽結束時，於 <picnic-mark>聯繫主辦／問答諮詢</picnic-mark> 出示任天堂app截圖證明（截圖需包含時間與八位玩家id）
+                                        <li>因他組斷線導致落敗的組別，需於當局比賽結束時，於 <picnic-mark>聯繫主辦／問答諮詢</picnic-mark>
+                                            出示任天堂app截圖證明（截圖需包含時間與八位玩家id）
                                         </li>
                                     </ul>
                                     <li>地圖全隨機，不 BAN 圖。</li>
@@ -121,7 +123,8 @@
                                     <li>地圖全隨機，不 BAN 圖。</li>
                                     <li>擂台賽規則：
                                         <ul class="ml-8 list-disc">
-                                            <li>晉級複賽的八隊將隨機排序並編號 a ~ h，<picnic-mark>第一場比賽</picnic-mark>由編號 a 的隊伍為 A1，編號 b 的隊伍為 B1，編號
+                                            <li>晉級複賽的八隊將隨機排序並編號 a ~ h，<picnic-mark>第一場比賽</picnic-mark>由編號 a 的隊伍為 A1，編號 b
+                                                的隊伍為 B1，編號
                                                 c 的隊伍為 A2，編號 d
                                                 的隊伍為 B2，另外四隊 efgh 排列於等待區並且在後面的比賽依序上場。每場會有四隊先上擂台，分為 Alpha 組和 Bravo 組進行對戰。
                                             </li>
@@ -131,7 +134,8 @@
                                                 下一場成為 Alpha 組的 A1 隊伍。落敗方則回到等待區隊伍的最後序列。</li>
                                             <li>等待區內順序較前的兩隊成為下一場的挑戰隊，依序編入 Alpha 組的挑戰隊 A2 和 Bravo 組的挑戰隊 B2。</li>
                                             <li>若進行至第 14 場仍無隊伍取得 14 分，第 15 場開始則以目前累計積分最高的分數為基準，先取得<picnic-mark>最高積分加 2
-                                                    分</picnic-mark>者即為冠軍（例如第<picnic-mark>14場</picnic-mark>時，A隊為所有隊伍中最高積分 10 分，則第 15 場開始先取得
+                                                    分</picnic-mark>者即為冠軍（例如第<picnic-mark>14場</picnic-mark>時，A隊為所有隊伍中最高積分 10
+                                                分，則第 15 場開始先取得
                                                 12 分的隊伍即為冠軍）。</li>
                                             <li>若進行至第 14 場仍無隊伍取得 14 分，第 15 場開始則以目前累計積分最高的分數為基準，先取得最高積分加 2
                                                 分者即為冠軍（例如第14場時，A隊為所有隊伍中最高積分 10 分，則第 15 場開始先取得 12 分的隊伍即為冠軍）。</li>
@@ -141,8 +145,6 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <!-- <a class="thumb" href="./asset/rule_animation.gif"><img src="./asset/rule_animation.gif"
-                                            alt=""></a> -->
                                 </ul>
                             </template>
                         </picnic-rule>
@@ -206,8 +208,6 @@
                                 <ul class="list-disc mb-4">
                                     <li>進入私房前請將依照以下方式改名：隊伍序號_ID (EX. C_AA)</li>
                                 </ul>
-                                <!-- <a class="thumb" href="./asset/picnic_teamtitle.jpg"><img src="./asset/picnic_teamtitle.jpg"
-                                        alt=""></a> -->
                             </template>
                         </picnic-rule>
 
@@ -271,16 +271,6 @@
                                 <p class="content-title">
                                     <picnic-mark>如何進入指定頻道</picnic-mark>
                                 </p>
-                                <!-- <ul class="list-disc mb-4">
-                                    <li>開啟大廳通知</li>
-                                    <div><a class="thumb" href="./asset/lobby_01.jpg"><img src="./asset/lobby_01.jpg"
-                                                alt=""></a></div>
-                                    <li>點擊「參加頻道」，輸入指定頻道代碼</li>
-                                    <div><a class="thumb" href="./asset/lobby_02.jpg"><img src="./asset/lobby_02.jpg"
-                                                alt=""></a></div>
-                                    <div><a class="thumb" href="./asset/lobby_03.jpg"><img src="./asset/lobby_03.jpg"
-                                                alt=""></a></div>
-                                </ul> -->
                                 <p class="content-title">斷線怎麼辦？</p>
                                 <ul class="list-disc mb-4">
                                     <li>對戰開始 60 秒內斷線：請終止對戰，四隊以相同的地圖規則、武器組成及裝備進行重賽</li>
@@ -319,11 +309,15 @@
                         <div class="rounded-lg overflow-hidden drop-shadow-lg">
                             <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">泰A組合</p>
                             <div class="gap-6 px-8 flex bg-white p-4">
-                                <a class="flex-row flex w-full gap-2 justify-center group items-center"
-                                    target="_blank" v-for="item in ytrone" :href="item.url">
+                                <a class="flex-row flex w-full gap-2 justify-center group items-center" target="_blank"
+                                    v-for="item in ytOne" :href="item.url">
                                     <div class="relative">
-                                        <div class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>
-                                        <p class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">{{ item.name }}</p>
+                                        <div
+                                            class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150">
+                                            <img :src="item.image" class="rounded-full" alt=""></div>
+                                        <p
+                                            class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">
+                                            {{ item.name }}</p>
                                     </div>
                                     <p class="text-[#6b21a8] font-semibold text-md">{{ item.position }}</p>
                                 </a>
@@ -332,11 +326,15 @@
                         <div class="rounded-lg overflow-hidden drop-shadow-lg">
                             <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">酣欸組合</p>
                             <div class="gap-6 px-8 flex bg-white p-4">
-                                <a class="flex-row flex w-full gap-2 justify-center group items-center"
-                                    target="_blank" v-for="item in ytrtwo" :href="item.url">
+                                <a class="flex-row flex w-full gap-2 justify-center group items-center" target="_blank"
+                                    v-for="item in ytTwo" :href="item.url">
                                     <div class="relative">
-                                        <div class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150"><img :src="item.image" class="rounded-full" alt=""></div>
-                                        <p class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">{{ item.name }}</p>
+                                        <div
+                                            class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150">
+                                            <img :src="item.image" class="rounded-full" alt=""></div>
+                                        <p
+                                            class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">
+                                            {{ item.name }}</p>
                                     </div>
                                     <p class="text-[#6b21a8] font-semibold text-md">{{ item.position }}</p>
                                 </a>
@@ -351,7 +349,10 @@
                     <div @click="ruleopen = !ruleopen"
                         class="mx-auto md:mx-none hover:bg-[#6b21a8] bg-[#2E4187] cursor-pointer text-white p-2 w-32 rounded-lg text-center mb-4">
                         {{ ruleopen ? '關閉得獎規則' : '查看得獎規則' }}</div>
-                    <picnic-prize :ruledata="ruleopen"></picnic-prize>
+                    <div
+                        class=" grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-4 md:flex-row flex-wrap items-stretch md:px-0">
+                        <picnic-prize v-for="item in picnic.prize" :prize="item"></picnic-prize>
+                    </div>
                     <ul class="bg-[#cbd5e1] p-4 mt-8 list-disc pl-8">
                         <li>圖片可公開並僅限於獲獎者本人於網路使用，張貼請註明作者。</li>
                         <li>請勿進行任何修改／重製／印刷，並禁止使用於營利活動。</li>
@@ -365,13 +366,15 @@
                 <picnic-title id="staff">工作人員</picnic-title>
                 <div class="md:px-24">
                     <p class="text-txtc text-center mb-8">*點擊可前往個人資料頁面</p>
-                    <picnic-staff></picnic-staff>
+                    <div class="grid grid-cols-3 lg:grid-cols-4 grid-flow-row gap-6 px-8">
+                        <picnic-staff v-for="item in staffList.staff" :staff="item"></picnic-staff>
+                    </div>
                 </div>
 
                 <!-- 感謝名單 -->
                 <picnic-title id="thanks">特別感謝</picnic-title>
-                <div class="md:px-24">
-                    <picnic-thanks></picnic-thanks>
+                <div class="grid grid-cols-3 lg:grid-cols-4 grid-flow-row gap-6 px-8">
+                    <picnic-staff v-for="item in staffList.thanks" :staff="item"></picnic-staff>
                 </div>
 
                 <div class="h-36"></div>
@@ -379,45 +382,63 @@
             </div>
         </div>
         <div class="hidden md:flex flex-col gap-0 fixed top-[10vh] left-0 overflow-hidden rounded-r-xl cursor-pointer">
-            <a href="#theme" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">比賽章程</a>
-            <a href="#award" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">大會獎品</a>
-            <a href="#staff" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">工作人員</a>
-            <a href="#thanks" class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">特別感謝</a>
+            <a href="#theme"
+                class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">比賽章程</a>
+            <a href="#award"
+                class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">大會獎品</a>
+            <a href="#staff"
+                class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">工作人員</a>
+            <a href="#thanks"
+                class="bg-[#2E4187] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">特別感謝</a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnkVOhevhP2dzfokrPnUVS2Afn-CYf-ratk0kUG156Y04Y6A/viewform"
-                target="_blank" class="bg-[#6b21a8] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">我要報名</a>
+                target="_blank"
+                class="bg-[#6b21a8] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">我要報名</a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7wMXLgdEN7l2GhFolD9KZ_ytqf_9S-aw9OHDhL8R6WE7_nw/viewform"
-                target="_blank" class="bg-[#6b21a8] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">我想贊助</a>
+                target="_blank"
+                class="bg-[#6b21a8] px-8 py-3 text-white font-medium md:hover:bg-[#FFCD40] md:active:grayscale cursor-pointer">我想贊助</a>
         </div>
     </div>
 </template>
 <script setup>
-const ruleopen = ref(false)
-const ytrone = ref([
-    {
-        url: 'https://www.youtube.com/channel/UCWVqclEBrX4vnNbLmm_Gt1g',
-        image: '_nuxt/assets/picnic/ytr/aa.jpg',
-        name: 'AA',
-        position: '實況主'
+useSeoMeta({
+    title: '皮克尼杯',
+    twitterTitle: '皮克尼杯',
+    twitterDescription: '欸等等搶魚耶，要不要雙排？',
+    twitterImage: 'https://fukahire.github.io/fishmarket/visual/picnic-b/meta.jpg',
+    ogTitle: '皮克尼杯',
+    description: '欸等等搶魚耶，要不要雙排？',
+    ogDescription: '欸等等搶魚耶，要不要雙排？',
+    ogImage: 'https://fukahire.github.io/fishmarket/visual/picnic-b/meta.jpg',
+    twitterCard: 'summary_large_image',
+    ogUrl: 'https://fukahire.github.io/fishmarket/picnic',
+})
+
+useHead({
+    htmlAttrs: {
+        lang: 'zh'
     },
-    {
-        url: 'https://www.youtube.com/@Taylor_SPL',
-        image: '_nuxt/assets/picnic/ytr/taylor.png',
-        name: '泰勒',
-        position: '賽評'
-    }
-],)
-const ytrtwo = ref([
-    {
-        url: 'https://www.youtube.com/@Yohan_Splat/featured',
-        image: '_nuxt/assets/picnic/ytr/yohan.jpg',
-        name: '有酣',
-        position: '實況主'
-    },
-    {
-        url: 'https://www.youtube.com/@ooluannoo',
-        image: '_nuxt/assets/picnic/ytr/eru.jpg',
-        name: '欸嚕',
-        position: '賽評'
-    }
-],)
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon.png'
+        }
+    ]
+})
+
+import { usePicnic } from '~~/store/contest/picnic';
+import { useStaffList } from '~~/store/staff';
+
+
+const picnic = usePicnic()
+const staffList = useStaffList()
+const navlink = picnic.navlink
+
+const picnicYT = picnic.youtuber
+const youtuberList = staffList.youtuber
+
+const ytData = picnicYT.map(item => youtuberList[item])
+let ytOne = [ytData[0], ytData[1]]
+let ytTwo = [ytData[2], ytData[3]]
+
 </script>

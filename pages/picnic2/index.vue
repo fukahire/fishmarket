@@ -3,9 +3,9 @@
         <!-- 主視覺 -->
         <!-- <picnic-b-fish class="w-full"></picnic-b-fish> -->
         <div class="flex items-center relative">
-            <img class="max-w-2xl w-full mx-auto" src="/assets/visual/picnic-b/people.png" alt="">
+            <img class="max-w-2xl w-full mx-auto" src="/visual/picnic-b/people.png" alt="">
             <img class="absolute bottom-0 -translate-y-1/2 w-[50%] max-w-xs left-1/2 -translate-x-1/2"
-                src="/assets/visual/picnic-b/logo.png" alt="">
+                src="/visual/picnic-b/logo.png" alt="">
         </div>
         <picnic-b-fish class="w-full"></picnic-b-fish>
         <div class="flex gap-8 mt-8 md:items-center items-stretch max-w-6xl mx-auto px-4 flex-col md:flex-row">
@@ -33,7 +33,7 @@
                     <picnic-b-rule>
                         <template #title>比賽資訊</template>
                         <template #content>
-                            <img src="@/assets/material/rule/schedule.png" class="max-w-2xl" alt="">
+                            <img src="/material/rule/schedule.png" class="max-w-2xl" alt="">
                             <ul class="list-disc">
                                 <li><span class="bg-[#9FFCFF] px-1 rounded">比賽時間</span>：1/27(六) 19:00 [GMT+8]</li>
                                 <li><span class="bg-[#FFEA94] px-1 rounded">報名時間</span>：1/9(二) 12:30～1/11(四) 20:00 [GMT+8]
@@ -88,7 +88,7 @@
                                 <li>活動進行時，將會按賽制配對另一組雙人隊友進行 4 對 4 的比賽。</li>
                                 <li>比賽過程中可以任意更換武器，唯獨不可與報名雙排隊友重複武器，與配對到的另一組雙排隊友重複則不限制。</li>
                                 <p class="mt-4">※主武器、副武器、SP 相同者視為同一把武器；有鏡狙擊和無鏡狙擊視為不同主武器</p>
-                                <img src="@/assets/material/rule/weapon.png" alt="">
+                                <img src="/material/rule/weapon.png" alt="">
                                 <li>比賽過程中，只允許與報名雙排隊友進行語音或文字溝通。</li>
                                 <li>為避免工作人員無法連絡參賽者，比賽當日 Discord 暱稱必須與報名表填寫的暱稱一致。</li>
                             </ul>
@@ -141,7 +141,7 @@
                                     「若叫號起三分鐘內組別未全員進入私房」，則視同過號，需重新回到等待區組別的最後列，並且改由下一組遞補。
                                 </li>
                             </ul>
-                            <img class="max-w-[600px]" src="@/assets/material/rule/animation_picnicb.gif" alt="">
+                            <img class="max-w-[600px]" src="/material/rule/animation_picnicb.gif" alt="">
                         </template>
                     </picnic-b-rule>
 
@@ -150,12 +150,12 @@
                         <template #title>1/27(六)比賽當日時程預定</template>
                         <template #content>
                             <ul class="-ml-6">
-                                <li><picnic-mark>18:30</picnic-mark> 前公布組別序號與分組</li>
-                                <li><picnic-mark>18:45</picnic-mark> 各組確認賽程表</li>
-                                <li><picnic-mark>18:55</picnic-mark> 所有組別進入私房待機</li>
-                                <li><picnic-mark>19:00</picnic-mark> 初賽準時開打</li>
-                                <li><picnic-mark>21:20</picnic-mark> 擂台賽開打</li>
-                                <li><picnic-mark>23:45</picnic-mark> 比賽結束</li>
+                                <li><picnic-b-mark>18:30</picnic-b-mark> 前公布組別序號與分組</li>
+                                <li><picnic-b-mark>18:45</picnic-b-mark> 各組確認賽程表</li>
+                                <li><picnic-b-mark>18:55</picnic-b-mark> 所有組別進入私房待機</li>
+                                <li><picnic-b-mark>19:00</picnic-b-mark> 初賽準時開打</li>
+                                <li><picnic-b-mark>21:20</picnic-b-mark> 擂台賽開打</li>
+                                <li><picnic-b-mark>23:45</picnic-b-mark> 比賽結束</li>
                                 <ul class="ml-8 list-disc">
                                     <li>比賽可能超過 12 點，請自行判斷是否能全程配合再行報名。</li>
                                     <li>開房一律使用 Nintendo Switch Online 建房功能。</li>
@@ -198,7 +198,7 @@
                                 <li>進入私房前請將依照以下方式改名：隊伍序號_ID (EX. 1C_AA)</li>
                                 <li>關閉遊戲重啟後必須重新輸入別稱，敬請注意。</li>
                             </ul>
-                            <img src="@/assets/material/rule/id.jpg" alt="">
+                            <img src="/material/rule/id.jpg" alt="">
                         </template>
                     </picnic-b-rule>
 
@@ -210,8 +210,8 @@
                                 <li>初賽進行時，主辦宣佈可進行次輪對戰後，若10分鐘內未進入指定房間，則判定為另外三組的勝利。</li>
                                 <li>私房開啟後，10分鐘內若某一組未全員進入私房，則判定為另外三組的勝利</li>
                             </ul>
-                            <img src="@/assets/material/rule/buildroom.png" alt="">
-                            <img src="@/assets/material/rule/joinroom.png" alt="">
+                            <img src="/material/rule/buildroom.png" alt="">
+                            <img src="/material/rule/joinroom.png" alt="">
                         </template>
                     </picnic-b-rule>
 
@@ -364,7 +364,6 @@
     </div>
 </template>
 <script setup>
-import { useDate } from '~~/store/date';
 import { usePicnicB } from '~~/store/contest/picnic-b';
 import { useStaffList } from '~~/store/staff';
 
@@ -379,5 +378,5 @@ let ytOne = [ytData[0], ytData[1]]
 let ytTwo = [ytData[2], ytData[3]]
 let ytThree = [ytData[4], ytData[5]]
 
-const date = useDate().date
+const date = picnicB.date
 </script>

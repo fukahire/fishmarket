@@ -15,7 +15,6 @@ const props = defineProps({
 
 const event = props.event
 const today = Date.now()
-// console.log(today)
 const eventcheck = computed(() => today >= event.start && today <= event.end)
 const check = computed(() => {
     if(today < event.start ){ return event.txt.start}

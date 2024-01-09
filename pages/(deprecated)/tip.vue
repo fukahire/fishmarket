@@ -27,7 +27,7 @@
                             <li>進入私房前請將依照以下方式改名：隊伍序號_ID (EX. C_AA)</li>
                             <li>關閉遊戲重啟後必須重新輸入別稱，敬請注意。</li>
                         </ul>
-                        <img src="@/assets/material/rule/id.jpg" alt="">
+                        <img src="/material/rule/id.jpg" alt="">
                     </template>
                 </picnic-b-rule>
 
@@ -39,8 +39,8 @@
                             <li>初賽進行時，主辦宣佈可進行次輪對戰後，若10分鐘內未進入指定房間，則判定為另外三組的勝利。</li>
                             <li>私房開啟後，10分鐘內若某一組未全員進入私房，則判定為另外三組的勝利</li>
                         </ul>
-                        <img src="@/assets/material/rule/buildroom.png" alt="">
-                        <img src="@/assets/material/rule/joinroom.png" alt="">
+                        <img src="/material/rule/buildroom.png" alt="">
+                        <img src="/material/rule/joinroom.png" alt="">
                     </template>
                 </picnic-b-rule>
 
