@@ -351,7 +351,7 @@
                         {{ ruleopen ? '關閉得獎規則' : '查看得獎規則' }}</div>
                     <div
                         class=" grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-4 md:flex-row flex-wrap items-stretch md:px-0">
-                        <picnic-prize v-for="item in picnic.prize" :prize="item"></picnic-prize>
+                        <picnic-prize v-for="item in picnic.prize" :prize="item" :open="ruleopen"></picnic-prize>
                     </div>
                     <ul class="bg-[#cbd5e1] p-4 mt-8 list-disc pl-8">
                         <li>圖片可公開並僅限於獲獎者本人於網路使用，張貼請註明作者。</li>
@@ -373,8 +373,8 @@
 
                 <!-- 感謝名單 -->
                 <picnic-title id="thanks">特別感謝</picnic-title>
-                <div class="grid grid-cols-3 lg:grid-cols-4 grid-flow-row gap-6 px-8">
-                    <picnic-staff v-for="item in staffList.thanks" :staff="item"></picnic-staff>
+                <div class="md:px-24 grid grid-cols-3 grid-flow-row gap-6 px-8">
+                    <picnic-staff v-for="item in thanksData" :staff="item"></picnic-staff>
                 </div>
 
                 <div class="h-36"></div>
@@ -433,12 +433,17 @@ import { useStaffList } from '~~/store/staff';
 const picnic = usePicnic()
 const staffList = useStaffList()
 const navlink = picnic.navlink
+const ruleopen = ref(false)
 
 const picnicYT = picnic.youtuber
 const youtuberList = staffList.youtuber
+const thanksList = staffList.thanks
+const picnicThanks = picnic.thanks
 
 const ytData = picnicYT.map(item => youtuberList[item])
 let ytOne = [ytData[0], ytData[1]]
 let ytTwo = [ytData[2], ytData[3]]
 
+const thanksData = picnicThanks.map(item => thanksList[item])
+console.log(thanksData)
 </script>

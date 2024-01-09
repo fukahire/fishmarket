@@ -10,7 +10,7 @@ export const usePicnic = defineStore('picnic', {
                 sponsor: '索爾',
                 rule: '皮克尼冠軍組',
                 luckysquid: '阿鳥 & 拿拿',
-                url: 'https://twitter.com/SODOSOAR',
+                url: 'https://x.com/SODOSOAR/status/1670355341681491968?s=20',
             },
             {
                 unit: '1組',
@@ -19,7 +19,7 @@ export const usePicnic = defineStore('picnic', {
                 sponsor: '欸嚕',
                 rule: '皮克尼亞軍組',
                 luckysquid: '巧克力饅頭 & 雷歐',
-                url: 'https://twitter.com/ooluannoo',
+                url: 'https://x.com/ooluannoo/status/1675038947985215488?s=20',
             },
             {
                 unit: '1組',
@@ -28,21 +28,21 @@ export const usePicnic = defineStore('picnic', {
                 sponsor: 'Polero',
                 rule: '比賽中使用最多武器的組合（兩人使用的不同武器數相加）',
                 luckysquid: 'pinpin & 檸朦',
-                url: 'https://twitter.com/Polero_light',
+                url: 'https://x.com/Polero_light/status/1678064963930460160?s=20',
             },
             {
                 unit: '1組',
                 title: '同手同腳獎',
-                image: 'prize/picnic/lalapizza.jpeg',
+                image: 'prize/picnic/lalapizza.png',
                 sponsor: '辣啦',
                 rule: '勝利姿勢一樣的組合抽其1',
                 luckysquid: '咩嚕 & セユ',
-                url: 'https://twitter.com/yunxd',
+                url: 'https://x.com/yunxd/status/1678252710502739968?s=20',
             },
             {
                 unit: '1人',
                 title: '魚躍龍門獎',
-                image: 'prize/picnic/pie.jpg',
+                image: 'prize/picnic/pie.PNG',
                 sponsor: 'π',
                 rule: '取得「刷新最佳計數」者抽其1',
                 luckysquid: 'APA',
@@ -55,7 +55,7 @@ export const usePicnic = defineStore('picnic', {
                 sponsor: '魚翅',
                 rule: '裝備主技能跟副技能重複越多者獲獎（大顆相同+3分小顆相同+1分）',
                 luckysquid: '巧克力饅頭 & 雷歐',
-                url: 'https://github.com/fukahire',
+                url: 'https://x.com/ChounoRin/status/1680751173685637120?s=20',
             },
             {
                 unit: '1組',
@@ -64,23 +64,10 @@ export const usePicnic = defineStore('picnic', {
                 sponsor: '笑笑OUO',
                 rule: '與雙排隊友擊殺、助攻、死亡、SP 相同數字越多者獲獎（斷線場及不戰而勝(敗)場不計）',
                 luckysquid: 'MeteorV 及 テイ',
-                url: 'https://twitter.com/lingmeowdas030',
+                url: 'https://x.com/lingmeowdas030/status/1717803362627072279?s=20',
             },
         ],
-        thanks: [
-            {
-                image: 'ytr_eru',
-                name: '欸嚕',
-            },
-            {
-                image: 'thanks_eee',
-                name: 'EEE',
-            },
-            {
-                image: 'thanks_ban',
-                name: '棒仔',
-            }
-        ],
+        thanks: ['eee','eru','ban'],
         youtuber: [
             'aa','taylor',
            'yohan', 'eru',

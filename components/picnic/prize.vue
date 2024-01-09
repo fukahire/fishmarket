@@ -17,7 +17,7 @@
                 <div class="bg-gradient-to-b from-white to-transparent absolute top-0 left-0 h-4 w-full"></div>
                 <div class="rounded-md p-1.5 bg-transparent md:p-auto md:bg-none text-white drop-shadow-lg font-bold absolute bottom-2 left-4">{{prize.sponsor ? prize.sponsor + '熱情贊助' : ''}}
                     <span class="font-bold animate-[horibounce_1s_ease-in-out_infinite] w-6 h-6 md:inline-block rounded-full bg-[#FFCD40] text-center ml-2 hidden opacity-0 group-hover:opacity-100 transition ease-in-out">→</span></div>
-                <div class="absolute top-0 left-0 bg-[#94a3b8] w-full h-full p-4 md:p-6 text-white -translate-x-full transition duration-500" :class="{ '!-translate-x-0' : props.ruledata === true }">得獎條件：<br>{{prize.rule ? prize.rule : ''}}<NuxtImg v-show="prize.rule == ''" src="/prize/syuto.png" class="mx-auto mt-2 w-1/3"></NuxtImg></div>
+                <div class="absolute top-0 left-0 bg-[#94a3b8] w-full h-full p-4 md:p-6 text-white -translate-x-full transition duration-500" :class="{ '!-translate-x-0' : props.open === true }">得獎條件：<br>{{prize.rule ? prize.rule : ''}}<NuxtImg v-show="prize.rule == ''" src="/prize/syuto.png" class="mx-auto mt-2 w-1/3"></NuxtImg></div>
             </div>
             <div class="absolute bottom-0 right-0 text-white"></div>
         </a>
@@ -26,8 +26,8 @@
 <script setup>
 const props = defineProps({
     prize: Object,
+    open: Boolean,
 })
 
 const prize = props.prize
-const open = ref(false)
 </script>

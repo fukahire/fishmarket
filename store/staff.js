@@ -100,19 +100,19 @@ export const useStaffList = defineStore('stafflist', {
                 position: '實況主'
             }
         },
-        thanks: [
-            {
-                image: 'ytr_eru',
+        thanks: {
+            eru: {
+                image: 'material/youtuber/eru.jpg',
                 name: '欸嚕',
             },
-            {
-                image: 'thanks_eee',
+            eee: {
+                image: 'material/thanks/eee.jpg',
                 name: 'EEE',
             },
-            {
-                image: 'thanks_ban',
+            ban: {
+                image: 'material/thanks/ban.jpg',
                 name: '棒仔',
             }
-        ],
+        }
     })
 })
