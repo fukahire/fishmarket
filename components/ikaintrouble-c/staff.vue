@@ -2,7 +2,7 @@
     <a class="lg:w-[48%] flex flex-row w-full gap-8 group" :href="staff.url" target="_blank">
         <div class="flex flex-col justify-center items-center relative">
             <div class="rounded-full overflow-hidden w-28 bg-[url('/visual/ikaintrouble-c/bg.jpg')] p-2 md:group-hover:rotate-45 ease-in duration-150">
-                <img :src="staff.image" class="rounded-full bg-neutral-700" alt="">
+                <NuxtImg :src="staff.image" class="rounded-full bg-neutral-700" alt=""></NuxtImg>
             </div>
             <p
                 class="bg-[#F8b1ff] px-2 py-0.5 rounded-lg font-extrabold absolute bottom-0 right-0 rotate-6 ring-4 ring-[#4520ea] text-[#4520ea]">
