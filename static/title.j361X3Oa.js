@@ -1,1 +1,0 @@
-import{_ as t}from"./_plugin-vue_export-helper.x3n3nnut.js";import{o,c as s,a as c,i as n}from"./entry.K7bik8ui.js";const r={},_={class:"text-center scroll-mt-12"},a={class:"mb-4 mt-8 text-white bg-[#395EE5] py-2 px-6 text-xl text-center rounded-lg inline-block"};function l(e,i){return o(),s("div",_,[c("p",a,[n(e.$slots,"default")])])}const p=t(r,[["render",l]]);export{p as _};
