@@ -57,25 +57,39 @@ export const useStaffList = defineStore('stafflist', {
                 url: 'https://www.youtube.com/@RONNKIEBrothers',
                 image: 'material/youtuber/roro.png',
                 name: '肉肉',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    ikaintroubleC: '主播',
+                }
             },
             rita: {
                 url: 'https://www.youtube.com/@rrrrrita',
                 image: 'material/youtuber/rita.png',
                 name: '瑞塔',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    ikaintroubleC: '賽評',
+                }
             },
             aa: {
                 url: 'https://www.youtube.com/@AAdesu',
                 image: 'material/youtuber/aa.png',
                 name: 'AA',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    ikaintroubleC: '主播',
+                    picnic: '實況',
+                }
             },
             taylor: {
                 url: 'https://www.youtube.com/@Taylor_SPL',
                 image: 'material/staff/taylor.png',
                 name: '泰勒',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    ikaintroubleC: '賽評',
+                    picnic: '賽評',
+                }
             },
             nerl: {
                 url: 'https://www.youtube.com/@neildrinksmilk',
@@ -87,7 +101,10 @@ export const useStaffList = defineStore('stafflist', {
                 url: 'https://www.youtube.com/@SawyerCh',
                 image: 'material/youtuber/soya.png',
                 name: '索亞',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    ikaintroubleC: '主播',
+                }
             },
             willy: {
                 url: 'https://www.youtube.com/@willy3966',
@@ -99,13 +116,28 @@ export const useStaffList = defineStore('stafflist', {
                 url: 'https://www.youtube.com/@Yohan_Splat/featured',
                 image: 'material/youtuber/yohan.jpg',
                 name: '有酣',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    picnic: '主播',
+                }
             },
             eru: {
                 url: 'https://www.youtube.com/@ooluannoo',
                 image: 'material/youtuber/eru.jpg',
                 name: '欸嚕',
-                position: '實況主'
+                position: {
+                    default: '實況主',
+                    picnic: '賽評',
+                }
+            },
+            dejavu: {
+                url: 'https://www.youtube.com/channel/UCD_Q__JVHofsidnNRmGmR-Q',
+                image: 'material/youtuber/deja.jpg',
+                name: 'Deja Vu',
+                position: {
+                    default: '實況主',
+                    ikaintroubleC: '賽評',
+                }
             }
         },
         thanks: {

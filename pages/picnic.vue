@@ -308,36 +308,14 @@
                     <div class="grid-cols-1 md:grid-cols-2 grid-flow-row grid gap-8 w-full">
                         <div class="rounded-lg overflow-hidden drop-shadow-lg">
                             <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">泰A組合</p>
-                            <div class="gap-6 px-8 flex bg-white p-4">
-                                <a class="flex-row flex w-full gap-2 justify-center group items-center" target="_blank"
-                                    v-for="item in ytOne" :href="item.url">
-                                    <div class="relative">
-                                        <div
-                                            class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150">
-                                            <img :src="item.image" class="rounded-full" alt=""></div>
-                                        <p
-                                            class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">
-                                            {{ item.name }}</p>
-                                    </div>
-                                    <p class="text-[#6b21a8] font-semibold text-md">{{ item.position }}</p>
-                                </a>
+                            <div class="gap-6 px-8 grid grid-cols-2 items-center bg-white p-4">
+                                <picnic-staff v-for="item in ytOne" :staff="item"></picnic-staff>
                             </div>
                         </div>
                         <div class="rounded-lg overflow-hidden drop-shadow-lg">
                             <p class="bg-[#2E4187] p-2 text-center text-white font-bold text-lg">酣欸組合</p>
-                            <div class="gap-6 px-8 flex bg-white p-4">
-                                <a class="flex-row flex w-full gap-2 justify-center group items-center" target="_blank"
-                                    v-for="item in ytTwo" :href="item.url">
-                                    <div class="relative">
-                                        <div
-                                            class="rounded-full overflow-hidden w-28 bg-[#FFCD40] p-2 md:group-hover:rotate-45 ease-in duration-150">
-                                            <img :src="item.image" class="rounded-full" alt=""></div>
-                                        <p
-                                            class="bg-[#2E4187] px-2.5 py-1 rounded-lg font-semibold absolute bottom-0 right-0 rotate-6 text-white">
-                                            {{ item.name }}</p>
-                                    </div>
-                                    <p class="text-[#6b21a8] font-semibold text-md">{{ item.position }}</p>
-                                </a>
+                            <div class="gap-6 px-8 grid grid-cols-2 items-center bg-white p-4">
+                                <picnic-staff v-for="item in ytTwo" :staff="item"></picnic-staff>
                             </div>
                         </div>
                     </div>
@@ -445,5 +423,4 @@ let ytOne = [ytData[0], ytData[1]]
 let ytTwo = [ytData[2], ytData[3]]
 
 const thanksData = picnicThanks.map(item => thanksList[item])
-console.log(thanksData)
 </script>

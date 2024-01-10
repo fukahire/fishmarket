@@ -230,9 +230,9 @@ export const useIkaintroubleC = defineStore('ikaintroublec', {
             },
         ],
         youtuber: [
-            'rita','roro',
-           'aa', 'nerl',
-           'soya', 'willy'
+            'aa','taylor',
+           'roro', 'rita',
+           'soya', 'dejavu'
         ],
         navlink: [
             {
