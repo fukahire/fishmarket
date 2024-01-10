@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#131313]">
-        <div class="h-full w-full flex justify-center gap font-sans">
+        <div class="h-full w-full flex justify-center gap font-sans pb-24">
         <!-- container -->
         <div class="max-w-[1200px] w-full md:px-4">
             <!-- banner -->
@@ -157,59 +157,20 @@
                                 class="w-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-4 md:flex-row flex-wrap items-stretch gap-4 px-8 md:px-0">
                                 <div class="flex flex-col justify-center">
                                     <p class="text-center text-white text-lg border-b-[2px] border-white p-2">泰A組合</p>
-                                    <div class="flex py-2 justify-center gap-2"><a
-                                            href="https://www.youtube.com/channel/UCWVqclEBrX4vnNbLmm_Gt1g" target="_blank"
-                                            class="ytr-card flex flex-col items-cneter group bg-[#262626] rounded-xl p-4">
-                                            <div class="ytr-icon">
-                                                <img class="rounded-full" src="./asset/ytr_aa.jpg" alt="">
-                                            </div>
-                                            <span class="ytr-name">主播<br>AA</span>
-                                        </a>
-                                        <a href="https://www.youtube.com/c/Taylor_jbdxblgutaguta" target="_blank"
-                                            class="ytr-card flex flex-col items-cneter group bg-[#262626] rounded-xl p-4">
-                                            <div class="ytr-icon">
-                                                <img class="rounded-full" src="./asset/ytr_taylor.png" alt="">
-                                            </div>
-                                            <span class="ytr-name">賽評<br>泰勒</span>
-                                        </a>
+                                    <div class="flex py-2 justify-center gap-2">
+                                        <ikaintrouble-c-yt v-for="item in ytOne" :staff="item"></ikaintrouble-c-yt>
                                     </div>
                                 </div>
                                 <div class="flex flex-col justify-center">
                                     <p class="text-center text-white text-lg border-b-[2px] border-white p-2">肉塔組合</p>
                                     <div class="flex py-2 justify-center gap-2">
-                                        <a href="https://www.youtube.com/c/RONNKIEBrothers" target="_blank"
-                                            class="ytr-card flex flex-col items-cneter group bg-[#262626] rounded-xl p-4">
-                                            <div class="ytr-icon">
-                                                <img class="rounded-full" src="./asset/ytr_ron.jpg" alt="">
-                                            </div>
-                                            <span class="ytr-name">主播<br>肉肉先森</span>
-                                        </a>
-                                        <a href="https://www.youtube.com/c/%E7%91%9E%E5%A1%94" target="_blank"
-                                            class="ytr-card flex flex-col items-cneter group bg-[#262626] rounded-xl p-4">
-                                            <div class="ytr-icon">
-                                                <img class="rounded-full" src="./asset/ytr_rita.jpg" alt="">
-                                            </div>
-                                            <span class="ytr-name">賽評<br>瑞塔</span>
-                                        </a>
+                                        <ikaintrouble-c-yt v-for="item in ytTwo" :staff="item"></ikaintrouble-c-yt>
                                     </div>
                                 </div>
                                 <div class="flex flex-col justify-center">
                                     <p class="text-center text-white text-lg border-b-[2px] border-white p-2">Deja萬</p>
                                     <div class="flex py-2 justify-center gap-2">
-                                        <a href="https://www.youtube.com/c/SawyerCh" target="_blank"
-                                            class="ytr-card flex flex-col items-cneter group bg-[#262626] rounded-xl p-4">
-                                            <div class="ytr-icon">
-                                                <img class="rounded-full" src="./asset/ytr_soya.jpg" alt="">
-                                            </div>
-                                            <span class="ytr-name">主播<br>索亞</span>
-                                        </a>
-                                        <a href="https://www.youtube.com/channel/UCD_Q__JVHofsidnNRmGmR-Q" target="_blank"
-                                            class="ytr-card flex flex-col items-cneter group bg-[#262626] rounded-xl p-4">
-                                            <div class="ytr-icon">
-                                                <img class="rounded-full" src="./asset/ytr_deja.jpg" alt="">
-                                            </div>
-                                            <span class="ytr-name">賽評<br>Deja Vu</span>
-                                        </a>
+                                        <ikaintrouble-c-yt v-for="item in ytThree" :staff="item"></ikaintrouble-c-yt>
                                     </div>
                                 </div>
 
