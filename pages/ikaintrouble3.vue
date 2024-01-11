@@ -211,7 +211,7 @@
                 <ikaintrouble-c-title id="contest">賽制</ikaintrouble-c-title>
                 <!-- 標題 -->
                 <ikaintrouble-c-rule>
-                <template #title></template>
+                <template #title>賽制</template>
                 <template #content>
                     <ol class="text-[#e4e4e4] list-disc ml-8 mb-4">
                         <li>初賽：規則區域，三戰兩勝循環賽，分四大戰區進行比賽後各組取前2進入八強賽
