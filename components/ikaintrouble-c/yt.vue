@@ -14,5 +14,4 @@ const props = defineProps({
 })
 
 const staff = props.staff
-console.log(staff?.position?.ikaintroublec)
 </script>
