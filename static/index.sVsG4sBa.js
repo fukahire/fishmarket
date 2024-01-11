@@ -1,1 +1,0 @@
-import{m as e,o as t,c as o,a as s}from"./entry.AXxuU88r.js";const a=s("h1",{class:"title"},"斯普拉遁魚市場",-1),n=[a],l=e({__name:"index",setup(c){return(_,r)=>(t(),o("div",null,n))}});export{l as default};
