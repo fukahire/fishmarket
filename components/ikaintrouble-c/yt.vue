@@ -4,7 +4,7 @@
         <div class="rounded-full overflow-hidden w-28 bg-[url('/visual/ikaintrouble-c/bg.jpg')] p-2 md:group-hover:rotate-45 ease-in duration-150">
             <NuxtImg class="rounded-full" :src="staff.image" alt=""></NuxtImg>
         </div>
-        <span class="text-center text-lg font-bold text-[#F8b1ff] md:group-hover:text-[#9be2ff]">{{ staff?.position?.ikaintroublec}}<br>{{staff?.name}}</span>
+        <span class="text-center text-lg font-bold text-[#F8b1ff] md:group-hover:text-[#9be2ff]">{{ staff?.position?.ikaintroubleC}}<br>{{staff?.name}}</span>
     </a>
 </template>
 
@@ -14,4 +14,5 @@ const props = defineProps({
 })
 
 const staff = props.staff
+console.log(staff?.position?.ikaintroublec)
 </script>
