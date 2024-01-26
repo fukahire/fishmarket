@@ -33,7 +33,7 @@ export const usePicnicB = defineStore('picnicb', {
         ],
         youtuber: [
             'rita','roro',
-           'aa', 'nerl',
+           'aa', 'taylor',
            'soya', 'willy'
         ],
         navlink: [

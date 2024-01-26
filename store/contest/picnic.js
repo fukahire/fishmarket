@@ -33,7 +33,7 @@ export const usePicnic = defineStore('picnic', {
             {
                 unit: '1組',
                 title: '同手同腳獎',
-                image: 'prize/picnic/lalapizza.png',
+                image: 'prize/picnic/lalapizza.jpg',
                 sponsor: '辣啦',
                 rule: '勝利姿勢一樣的組合抽其1',
                 luckysquid: '咩嚕 & セユ',

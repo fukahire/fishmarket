@@ -83,7 +83,7 @@ export const useStaffList = defineStore('stafflist', {
             },
             taylor: {
                 url: 'https://www.youtube.com/@Taylor_SPL',
-                image: 'material/staff/taylor.png',
+                image: 'material/youtuber/taylor.png',
                 name: '泰勒',
                 position: {
                     default: '實況主',
