@@ -1,3 +1,14 @@
+# 設定
+## 下載
+npm run install
+
+##運行
+npm run dev
+
+##部署到github pages
+npm run generate (產生靜態檔)
+npm run deploy (佈署)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
