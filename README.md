@@ -2,10 +2,10 @@
 ## 下載
 npm run install
 
-##運行
+## 運行
 npm run dev
 
-##部署到github pages
+## 部署到github pages
 npm run generate (產生靜態檔)
 npm run deploy (佈署)
 
