@@ -6,11 +6,11 @@ export const usePicnicB = defineStore('picnicb', {
             {
                 unit: '1組',
                 title: '冠軍賞',
-                image: 'prize/picnic-b/fenguo.png',
+                image: 'prize/picnic-b/fenguo.jpg',
                 sponsor: '粉粿',
                 rule: '皮克尼2冠軍組',
                 luckysquid: '',
-                url: 'https://twitter.com/fenguooooo',
+                url: 'https://twitter.com/fenguooooo/status/1771559120581058729?s=20',
             },
             {
                 unit: '1組',
@@ -19,7 +19,7 @@ export const usePicnicB = defineStore('picnicb', {
                 sponsor: '緋緋',
                 rule: '',
                 luckysquid: '',
-                url: 'https://twitter.com/fifi0225',
+                url: 'https://twitter.com/fifi0225/status/1754117784844583190?s=20',
             },
             {
                 unit: '1組',
@@ -28,7 +28,7 @@ export const usePicnicB = defineStore('picnicb', {
                 sponsor: '烏龜',
                 rule: '',
                 luckysquid: '',
-                url: 'https://twitter.com/turtle8338',
+                url: 'https://twitter.com/turtle3883/status/1758548286414447077?s=20',
             }
         ],
         youtuber: [
