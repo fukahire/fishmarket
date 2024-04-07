@@ -9,7 +9,7 @@
                     <picnic-b-rule>
                         <template #title>比賽資訊</template>
                         <template #content>
-                            <img src="@/assets/material/rule/schedule.png" class="max-w-lg block" alt="">
+                            <img src="/material/rule/schedule.png" class="max-w-lg block" alt="">
                             <ul class="list-disc">
                                 <li><span class="bg-[#9FFCFF] px-1 rounded">比賽時間</span>：1/27(六) 19:00 [GMT+8]</li>
                                 <li><span class="bg-[#FFEA94] px-1 rounded">報名時間</span>：1/9(二) 12:30～1/11(四) 20:00 [GMT+8]
@@ -58,7 +58,7 @@
                                 <li>活動進行時，將會按賽制配對另一組雙人隊友進行 4 對 4 的比賽。</li>
                                 <li>比賽過程中可以任意更換武器，唯獨不可與報名雙排隊友重複武器，與配對到的另一組雙排隊友重複則不限制。</li>
                                 <p class="mt-4">※主武器、副武器、SP 相同者視為同一把武器，且有鏡狙擊和無鏡狙擊視為同一種主武器</p>
-                                <img src="@/assets/material/rule/weapon.png" alt="">
+                                <img src="/material/rule/weapon.png" alt="">
                                 <li>比賽過程中，只允許與報名雙排隊友進行語音或文字溝通。</li>
                                 <li>為避免工作人員無法連絡參賽者，比賽當日 Discord 暱稱必須與報名表填寫的暱稱一致。</li>
                             </ul>
@@ -111,7 +111,7 @@
                                     「若叫號起三分鐘內組別未全員進入私房」，則視同過號，需重新回到等待區組別的最後列，並且改由下一組遞補。
                                 </li>
                             </ul>
-                            <img src="@/assets/material/rule/animation_picnicb.gif" alt="">
+                            <img src="/material/rule/animation_picnicb.gif" alt="">
                         </template>
                     </picnic-b-rule>
 

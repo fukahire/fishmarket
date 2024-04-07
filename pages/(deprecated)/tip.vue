@@ -27,7 +27,7 @@
                             <li>進入私房前請將依照以下方式改名：隊伍序號_ID (EX. C_AA)</li>
                             <li>關閉遊戲重啟後必須重新輸入別稱，敬請注意。</li>
                         </ul>
-                        <img src="/material/rule/id.jpg" alt="">
+                        <img src="/material/rule/id.png" alt="">
                     </template>
                 </picnic-b-rule>
 
