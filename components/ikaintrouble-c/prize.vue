@@ -1,7 +1,7 @@
 <template>
     <!-- 單張卡片 -->
     <a :href="prize.url" class=" flex flex-col w-full relative group" target="_blank"
-        @click.prevent="newurl(prize.url)">
+        @click="newurl(prize.url)">
         <!-- title -->
         <div class="w-full h-16
                     flex flex-row justify-between items-center overflow-hidden
