@@ -9,25 +9,25 @@ export const usePicnicB = defineStore('picnicb', {
                 image: 'prize/picnic-b/fenguo.jpg',
                 sponsor: '粉粿',
                 rule: '皮克尼2冠軍組',
-                luckysquid: '',
+                luckysquid: 'Vito、Ryan',
                 url: 'https://twitter.com/fenguooooo/status/1771559120581058729?s=20',
             },
             {
                 unit: '1組',
-                title: '活動賞',
+                title: '金魚獎',
                 image: 'prize/picnic-b/fefe.jpg',
                 sponsor: '緋緋',
-                rule: '',
-                luckysquid: '',
+                rule: '任一場對戰擁有「計數推進NO.1」表揚，即可和同組夥伴一起參加抽獎',
+                luckysquid: '87、Soda',
                 url: 'https://twitter.com/fifi0225/status/1754117784844583190?s=20',
             },
             {
                 unit: '1組',
-                title: '活動賞',
+                title: '拍立得獎',
                 image: 'prize/picnic-b/turtle.jpg',
                 sponsor: '烏龜',
-                rule: '',
-                luckysquid: '',
+                rule: '繳交一組直式雙人合照即可參加抽獎',
+                luckysquid: '檸朦、帽子',
                 url: 'https://twitter.com/turtle3883/status/1758548286414447077?s=20',
             }
         ],
@@ -103,6 +103,23 @@ export const usePicnicB = defineStore('picnicb', {
             end: Date.parse('27 Jan 2024 24:00:00'),
             url: 'https://docs.google.com/spreadsheets/d/1QyXWQq2flAGS_z_vgNUWl2lRfj1LgIY8PbR2HEqKlNc/edit#gid=304776388%EF%BC%89',
           },
+        ],
+        member: [
+          {
+            title:'拍立得獎',
+            luckysquid: '檸朦、帽子',
+            image: 'prize/picnic-b/2A.jpg',
+          },
+          {
+            title:'冠軍賞',
+            luckysquid: 'Vito、Ryan',
+            image: 'prize/picnic-b/victory.jpg',
+          },
+          {
+            title:'金魚獎',
+            luckysquid: '87、Soda',
+            image: 'prize/picnic-b/2N.jpg',
+          }
         ]
     })
 })

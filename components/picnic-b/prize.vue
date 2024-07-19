@@ -7,7 +7,7 @@
                 <div class="h-14 flex flex-row items-center overflow-hidden bg-[#FFCD40] p-1 rounded-full gap-3 text-slate-700">
                         <div class="w-[4.5rem] rounded-full p-1 ml-2 bg-[#395ee5] text-white text-center flex justify-center items-center">{{prize.unit}}</div>
                         <div class="">
-                            <div class="text-sm drop-shadow font-medium">{{prize.luckysquid ? `恭喜 ${item.luckysquid} 獲獎` : ''}}</div>
+                            <div class="text-sm drop-shadow font-medium">{{prize.luckysquid ? `恭喜 ${prize.luckysquid} 獲獎` : ''}}</div>
                             <div class="text-md font-bold">「{{prize.title ? prize.title : '〇〇〇〇賞'}}」</div>
                         </div>
                 </div>

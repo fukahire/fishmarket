@@ -8,6 +8,18 @@
                 src="/visual/picnic-b/logo.png" alt="">
         </div>
         <picnic-b-fish class="w-full"></picnic-b-fish>
+        <!-- 參賽大合照 -->
+        <div class="w-full px-4 max-w-[1000px] mx-auto">
+            <picnic-b-title>參賽選手</picnic-b-title>
+            <div class="grid grid-cols-3 gap-2 md:gap-8">
+                <picnic-b-member v-for="(item, index) in member" :member="item" :number="index"></picnic-b-member>
+            </div>
+            <div class="mt-4">
+                <a target="_blank"  href="/prize/picnic-b/all.jpg" class="block w-full text-center font-bold bg-[#395EE5] px-4 cursor-pointer rounded-lg text-white py-2 hover:text-black hover:bg-[#FFCD40]">其他選手</a>
+            </div>
+        </div>
+        <!--  -->
+        <picnic-b-title class="mt-16">活動時程</picnic-b-title>
         <div class="flex gap-8 mt-8 md:items-center items-stretch max-w-6xl mx-auto px-4 flex-col md:flex-row">
             <div class="w-full md:max-w-md">
                 <a class="twitter-timeline" data-height="500" data-width="100%"
@@ -15,7 +27,6 @@
                 <component :is="'script'" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></component>
             </div>
             <div class="flex-grow">
-                <picnic-b-title>活動時程</picnic-b-title>
                 <picnic-b-timeevent v-for="item in date" :event="item" class="mb-3"></picnic-b-timeevent>
             </div>
         </div>
@@ -379,4 +390,5 @@ let ytTwo = [ytData[2], ytData[3]]
 let ytThree = [ytData[4], ytData[5]]
 
 const date = picnicB.date
+const member = picnicB.member
 </script>
