@@ -6,8 +6,8 @@ npm run install
 npm run dev
 
 ## 部署到github pages
-# npm run generate (產生靜態檔)
-# npm run deploy (佈署)
+### npm run generate (產生靜態檔)
+### npm run deploy (佈署)
 
 # Nuxt 3 Minimal Starter
 
