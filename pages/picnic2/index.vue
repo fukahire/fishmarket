@@ -15,7 +15,7 @@
                 <picnic-b-member v-for="(item, index) in member" :member="item" :number="index"></picnic-b-member>
             </div>
             <div class="mt-4">
-                <a target="_blank"  href="/prize/picnic-b/all.jpg" class="block w-full text-center font-bold bg-[#395EE5] px-4 cursor-pointer rounded-lg text-white py-2 hover:text-black hover:bg-[#FFCD40]">其他選手</a>
+                <a target="_blank"  href="/fishmarket/prize/picnic-b/all.jpg" class="block w-full text-center font-bold bg-[#395EE5] px-4 cursor-pointer rounded-lg text-white py-2 hover:text-black hover:bg-[#FFCD40]">其他選手</a>
             </div>
         </div>
         <!--  -->
