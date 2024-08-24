@@ -14,7 +14,6 @@ const props = defineProps({
 })
 
 const event = props.eventName
-console.log(event)
 </script>
 
 <style scoped>
