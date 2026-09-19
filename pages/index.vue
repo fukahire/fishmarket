@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto flex flex-col items-center justify-center h-screen bg-img bg-center bg-no-repeat bg-cover p-4">
+    <div class="mx-auto flex flex-col items-center justify-center h-screen bg-[url('/bg-fishmarket.jpg')] bg-center bg-no-repeat bg-cover p-4">
         <div class="grid grid-cols-5 w-full max-w-[40rem] gap-0 md:gap-4">
             <div class="col-span-5 flex justify-center items-center md:col-span-2 mb-2 ring-white">
                 <div class="max-w-40 max-h-40 md:max-w-none md:max-h-none w-full h-full overflow-hidden rounded-full bg-[#1f2124]">
@@ -37,8 +37,8 @@
 <script setup lang="ts">
 const eventName = ref(['ikaintrouble3','picnic','picnic2'])
 </script>
-<style scoped>
+<!-- <style scoped>
 .bg-img {
-    background-image: url('/public/bg-fishmarket.jpg');
+    background-image: url('/bg-fishmarket.jpg');
 }
-</style>
+</style> -->
