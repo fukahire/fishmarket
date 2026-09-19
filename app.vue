@@ -12,7 +12,7 @@
 // app.use(pinia)
 
 useHead({
-  title: '皮克尼杯2',
+  title: '斯普拉遁魚市場',
   meta: [
     { name: '斯普拉遁魚市場', content: 'picnic2' }
   ],
